@@ -47,5 +47,5 @@ if submit:
     if guess == secret:
         st.success(f"✅ Correct! The number was **{secret}**.")
     else: 
-        st.sucess("the number was {secret}")
+        st.success(f"the number was {secret}")
 
